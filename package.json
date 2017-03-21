@@ -4,6 +4,7 @@
   "description": "A plugin for `update-readme` to auto-generate the Name and Description sections of your README from package.json",
   "main": "index.js",
   "scripts": {
+    "lint": "standard --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/update-readme/update-readme-name-and-description/issues"
   },
-  "homepage": "https://github.com/update-readme/update-readme-name-and-description#readme"
+  "homepage": "https://github.com/update-readme/update-readme-name-and-description#readme",
+  "devDependencies": {
+    "standard": "^9.0.2"
+  }
 }
